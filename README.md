@@ -1,7 +1,7 @@
 # Acid.DialogPicker
 Acid.DialogPicker is a C# iOS component that display a UIPickerView and UIDatePicker inside a Modal Window for Xamarin.
-[![](images/datepicker.png =179x280)](https://github.com/acidstudios/acid.dialogpicker/tree/master/images)
-[![](images/picker.png =179x280)](https://github.com/acidstudios/acid.dialogpickertree/master/images)
+[![](https://github.com/acidstudios/acid.dialogpicker/raw/master/images/datepicker.png =179x280)](https://github.com/acidstudios/acid.dialogpicker/tree/master/images)
+[![](https://github.com/acidstudios/acid.dialogpicker/raw/master/images/picker.png =179x280)](https://github.com/acidstudios/acid.dialogpickertree/master/images)
 
 ## Requirements
 * Xamarin.iOS
