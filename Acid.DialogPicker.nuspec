@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata minClientVersion="">
+    <id>Acid.DialogPicker</id>
+    <version>1.0.1</version>
+    <title>Acid.DialogPicker</title>
+    <authors>Gustavo Barrientos</authors>
+    <owners>tavobarrientos</owners>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/acidstudios/acid.dialogpicker/blob/master/LICENSE.md</licenseUrl>
+    <projectUrl>https://github.com/acidstudios/acid.dialogpicker/</projectUrl>
+    <repository type="git" url="https://github.com/acidstudios/acid.dialogpicker" />
+    <description>Display a Modal window with a DatePicker or Picker in iOS</description>
+    <copyright>Copyright © 2018 Acid Studios</copyright>
+    <tags>ios, pickers, modal, datepicker, uipickerview, uidatepickerview, xamarin, dialog</tags>
+    <dependencies>
+      <group targetFramework="Xamarin.iOS1.0" />
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Core" targetFramework="Xamarin.iOS1.0" />
+      <frameworkAssembly assemblyName="System" targetFramework="Xamarin.iOS1.0" />
+      <frameworkAssembly assemblyName="System.Xml" targetFramework="Xamarin.iOS1.0" />
+      <frameworkAssembly assemblyName="Xamarin.iOS" targetFramework="Xamarin.iOS1.0" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <!--Xamarin.iOS-->
+    <file src="com.acidstudios.ios.DialogPicker.iOS/bin/Release/com.acidstudios.ios.DialogPicker.dll" target="lib/xamarinios10/com.acidstudios.ios.DialogPicker.dll" />
+  </files>
+</package>
