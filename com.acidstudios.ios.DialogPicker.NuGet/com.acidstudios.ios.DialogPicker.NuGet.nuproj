@@ -11,7 +11,7 @@ Only for iOS</Description>
     <PackageVersion>1.0.1</PackageVersion>
     <Authors>Gustavo Barrientos</Authors>
     <DevelopmentDependency>false</DevelopmentDependency>
-    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <OutputType>Exe</OutputType>
     <RootNamespace>com.acidstudios.ios.DialogPicker</RootNamespace>
     <UsePartialTypes>false</UsePartialTypes>
@@ -21,6 +21,8 @@ Only for iOS</Description>
     <PackageTags>ios, pickers, modal, datepicker, uipickerview, uidatepickerview</PackageTags>
     <Title>Acid.DialogPicker</Title>
     <PackageReleaseNotes>Initial Relase</PackageReleaseNotes>
+    <PackageProjectUrl>https://github.com/acidstudios/acid.dialogpicker/</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/acidstudios/acid.dialogpicker/blob/master/LICENSE.md</PackageLicenseUrl>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
