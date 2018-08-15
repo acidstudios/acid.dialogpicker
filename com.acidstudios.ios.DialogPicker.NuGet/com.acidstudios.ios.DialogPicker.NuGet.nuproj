@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(NuGetAuthoringPath)\NuGet.Packaging.Authoring.props" Condition="Exists('$(NuGetAuthoringPath)\NuGet.Packaging.Authoring.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{90D58932-0F47-4062-9FC7-D9F31F263D2A}</ProjectGuid>
+    <Description>Display a Modal window with a DatePicker or Picker.
+Only for iOS</Description>
+    <PackageId>Acid.DialogPicker</PackageId>
+    <PackageVersion>1.0.1</PackageVersion>
+    <Authors>Gustavo Barrientos</Authors>
+    <DevelopmentDependency>false</DevelopmentDependency>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>com.acidstudios.ios.DialogPicker</RootNamespace>
+    <UsePartialTypes>false</UsePartialTypes>
+    <AssemblyName>com.acidstudios.ios.DialogPicker.NuGet</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <Owners>tavobarrientos</Owners>
+    <PackageTags>ios, pickers, modal, datepicker, uipickerview, uidatepickerview</PackageTags>
+    <Title>Acid.DialogPicker</Title>
+    <PackageReleaseNotes>Initial Relase</PackageReleaseNotes>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <OutputPath>bin\Debug</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\com.acidstudios.ios.DialogPicker.iOS\com.acidstudios.ios.DialogPicker.iOS.csproj">
+      <Project>{4C93E013-CE77-496A-B89F-288F11361A7A}</Project>
+      <Name>com.acidstudios.ios.DialogPicker.iOS</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="NuGet.Build.Packaging">
+      <Version>0.2.0</Version>
+      <PrivateAssets>All</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.Common.targets" />
+  <Import Project="$(NuGetAuthoringPath)\NuGet.Packaging.Authoring.targets" Condition="Exists('$(NuGetAuthoringPath)\NuGet.Packaging.Authoring.targets')" />
+</Project>
