@@ -67,7 +67,7 @@ var items = new System.Collections.Generic.List<Country>
 
 // Create Picker.Dialog
 // Implement some UIPickerDelegate and UIPickerDataSource delegate functions
-var picker = new AcidStudios.iOS.Dialog.PickerDialog<object>(true)
+var picker = new AcidStudios.iOS.Dialog.PickerDialog<Country>(true)
 {
 	ComponentCount = delegate (UIPickerView pickerView)
 	{
@@ -95,7 +95,7 @@ picker.Show("Regular Picker", "OK", "Cancel", (nint obj) =>
 ```
 
 ## Special thanks to
-* [@squimer](https://github.com/wimagguc) for the original work of [DatePickerDialog-iOS-Swift](https://github.com/squimer/DatePickerDialog-iOS-Swift) library in Swift
+* [@squimer](https://github.com/squimer) for the original work of [DatePickerDialog-iOS-Swift](https://github.com/squimer/DatePickerDialog-iOS-Swift) library in Swift
 
 ## License
 
